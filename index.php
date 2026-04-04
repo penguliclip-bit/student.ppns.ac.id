@@ -45,6 +45,12 @@ $allowed = [
     'ujian',
     'wisudawan',
 
+    // nilai
+    'khs1',
+    'khs2',
+    'khs3',
+
+
     // pengajuan
     'prosedur',
     'suratbaru'
@@ -84,17 +90,18 @@ $map = [
     'ujian' => 'akademik/ujian.html',
     'wisudawan' => 'akademik/wisudawan.html',
 
+    // nilai
+    'khs1' => 'akademik/penilaian/khs1.html',
+    'khs2' => 'akademik/penilaian/khs2.html',
+    'khs3' => 'akademik/penilaian/khs3.html',
+
     // pengajuan folder
     'prosedur' => 'pengajuan/prosedur.html',
     'suratbaru' => 'pengajuan/suratbaru.html'
+
     
 ];
-if ($page == 'logout') {
-    session_destroy();
-    header("Location: ?page=logout");
-    exit;
-}
-else if (!isset($_SESSION['login']) && $page != 'login') {
+if (!isset($_SESSION['login']) && $page != 'login') {
     header("Location: ?page=login");
     exit;
 }
