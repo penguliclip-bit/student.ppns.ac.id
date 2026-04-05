@@ -23,6 +23,7 @@ $mata_kuliah = [
     ['no'=>5, 'kode'=>'NS47020', 'nama'=>'Kimia',                         'sks'=>2, 'nilai'=>'B',  'n_sks'=>'6.00'],
     ['no'=>6, 'kode'=>'WE48010', 'nama'=>'Fabrikasi Dasar',               'sks'=>4, 'nilai'=>'A-', 'n_sks'=>'14.00'],
     ['no'=>7, 'kode'=>'WE48020', 'nama'=>'Gambar Teknik ',                'sks'=>4, 'nilai'=>'A-', 'n_sks'=>'14.00'],
+    ['no'=>4, 'kode'=>'KU45020', 'nama'=>'Pancasila',                     'sks'=>2, 'nilai'=>'B',  'n_sks'=>'6.00'],
 ];
 
 // ---- HITUNG TOTAL & IPS ----
